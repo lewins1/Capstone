@@ -13,8 +13,9 @@ namespace WindowsFormsApp1
     public partial class Form1 : Form
     {
         int _time;
-        int _ypose = 6;
-        int _xpose = 6;
+
+
+        int[] coords = new int[2] { 5, 5 };
         enum EnumController
         {
             W,
@@ -22,24 +23,24 @@ namespace WindowsFormsApp1
             S,
             D
         }
-        List<EnumController> controller = new List<EnumController>(5);
-
-        Button[,] buttons = new Button[11,11];
+        char controller;
+        int tailLength = 4;
+        List<int[]> intTail = new List<int[]>();
+        Random bait = new Random();
+        int randy;
+        int randx;
+        Button[,] buttons = new Button[11, 11];
 
         public Form1()
         {
-            
+
             InitializeComponent();
 
             InitTimer();
 
             InitGrid();
 
-            foreach (Button button in buttons)
-            {
-                button.Text = "■";
 
-            }
 
         }
 
@@ -52,7 +53,7 @@ namespace WindowsFormsApp1
             timer.Tick += new EventHandler(Timer_Tick);
             timer.Start();
         }
-        private void InitGrid ()
+        private void InitGrid()
         {
 
             buttons[0, 0] = button121;
@@ -191,24 +192,47 @@ namespace WindowsFormsApp1
         private void Timer_Tick(object o, EventArgs e)
         {
             Pose();
-            
+
             Points();
 
-            foreach (Button button in buttons)
-            {
-                button.Text = "";
+            Tail();
 
-            }
         }
         private void Pose()
         {
-            //switch (controller[0])
+            buttons[coords[0], coords[1]].Text = "";
+
+            switch (controller)
+            {
+                case 'W':
+                    intTail.Add(coords);
+                    coords[1] = coords[1] + 1;
+
+                    break;
+                case 'A':
+                    intTail.Add(coords);
+                    coords[0] = coords[0] - 1;
+
+                    break;
+                case 'S':
+                    intTail.Add(coords);
+                    coords[1] = coords[1] - 1;
+
+                    break;
+                case 'D':
+                    intTail.Add(coords);
+                    coords[0] = coords[0] + 1;
+
+                    break;
+                default:
+                    break;
+            }
+            //for (int i = 0; i < coords.Length; i++)
             //{
-            //    case EnumController.W:
-            //    default:
-            //        break;
+            //    buttons[coords[0], coords[1]].Text = "■";
             //}
-            //foreach (var item in collection)
+
+            //foreach (int pos in coords)
             //{
 
             //}
@@ -217,28 +241,39 @@ namespace WindowsFormsApp1
         {
             _time = _time + 1;
             button122.Text = _time.ToString();
+
+            buttons[coords[0], coords[1]].Text = "■";
+            intTail.Add(coords);
+
+            //randy = bait.Next(1, 9);
+            //randx = bait.Next(1, 9);
+            //buttons[randy, randx].Text = "■";
+        }
+        private void Tail()
+        {
+
         }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.W)
+            if (e.KeyCode == Keys.W && controller != 'S')
             {
-                button123.Text = "W";
-                controller.Add(EnumController.W);
+
+                controller = 'W';
             }
-            else if (e.KeyCode == Keys.A)
+            else if (e.KeyCode == Keys.A && controller != 'D')
             {
-                button123.Text = "A";
-                controller.Add(EnumController.A);
+
+                controller = 'A';
             }
-            else if (e.KeyCode == Keys.S)
+            else if (e.KeyCode == Keys.S && controller != 'W')
             {
-                button123.Text = "S";
-                controller.Add(EnumController.S);
+
+                controller = 'S';
             }
-            else if (e.KeyCode == Keys.D)
+            else if (e.KeyCode == Keys.D && controller != 'A')
             {
-                button123.Text = "D";
-                controller.Add(EnumController.D);
+
+                controller = 'D';
             }
         }
     }
