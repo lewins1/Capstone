@@ -12,6 +12,14 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        //************************************
+        //Title: Snake
+        //Application Type: WinForms
+        //Description: Recreate the retro game snake in a winforms app
+        //Author: Shawn Lewin
+        //Date Created: 12/2/17
+        //Last Modified: 12/10/17
+        //************************************
         //
         //Declaring Variables 
         //
