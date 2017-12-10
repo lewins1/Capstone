@@ -19,18 +19,11 @@ namespace WindowsFormsApp1
 
         int timerSpeed = 1000;
         int time = 1;
+        int points = -2;
 
         char controller;
 
         int[] coords = new int[2] { 5, 5 };
-
-        enum EnumController
-        {
-            W,
-            A,
-            S,
-            D
-        }
 
         Timer snakeTimer = new Timer
         {
@@ -62,15 +55,21 @@ namespace WindowsFormsApp1
             //Tells the timer what to do every tick, and to start timing
             //
 
+            
             snakeTimer.Tick += new EventHandler(Timer_Tick);
-            snakeTimer.Start();
+            
 
             
             InitGrid();
 
             Bait();
+            while ((controller.ToString().Length == 0))
+            {
 
+            }
+            snakeTimer.Start();
         }
+
         /// <summary>
         /// Pushes all buttons into 2 dimentional array
         /// </summary>
@@ -242,10 +241,16 @@ namespace WindowsFormsApp1
                 Tail();
             }
 
-
+            //
+            //Dev mode
+            //
             if (checkBox1.Checked == true)
             {
                 button123.Visible = true;
+            }
+            else
+            {
+                button123.Visible = false;
             }
 
         }
@@ -316,7 +321,7 @@ namespace WindowsFormsApp1
             if (coords[0] == randomY && coords[1] == randomX)
             {
                 tailLength++;
-                time = time + 100;
+                points = points + 100;
                 Bait();
                 if (timerSpeed > 200)
                 {
@@ -334,7 +339,7 @@ namespace WindowsFormsApp1
             randomY = randBait.Next(1, 9);
             randomX = randBait.Next(1, 9);
             
-            if (buttons[randomY, randomX].BackColor == Color.DarkGreen || buttons[randomY, randomX].BackColor == Color.LawnGreen || buttons[randomY, randomX].BackColor == Color.PaleGreen)
+            if (buttons[randomY, randomX].BackColor == Color.DarkGreen || buttons[randomY, randomX].BackColor == Color.LawnGreen || buttons[randomY, randomX].BackColor == Color.PaleGreen || randomY == coords[0] && randomX == coords[1])
             {
                 Bait();
             }
@@ -456,6 +461,7 @@ namespace WindowsFormsApp1
                     if (tailPose.Count > tailLength)
                     {
                         tailPose.RemoveAt(tailLength + 1);
+                        points++;
                     }
                 
                     buttons[tailPoseX, tailPoseY].BackColor = Color.White;
@@ -510,7 +516,7 @@ namespace WindowsFormsApp1
 
                     buttons[tailPoseX, tailPoseY].BackColor = Color.PaleGreen;
                 }
-                button122.Text = time.ToString();
+                button122.Text = points.ToString();
 
                 //
                 //Sets the current head to a body block
@@ -521,6 +527,9 @@ namespace WindowsFormsApp1
             }
         }
 
+        /// <summary>
+        /// Tests if the snake is colliding with itself or the wall
+        /// </summary>
         private void Collison()
         {
             if (buttons[coords[0], coords[1]].BackColor == Color.Black)
@@ -533,6 +542,9 @@ namespace WindowsFormsApp1
             }
         }
         
+        /// <summary>
+        /// Stops the timer, makes the restart button visable, paints grid red.
+        /// </summary>
         private void GameOver()
         {
             snakeTimer.Stop();
@@ -588,7 +600,7 @@ namespace WindowsFormsApp1
             {
                 tailPose.Insert(0, 55);
             }
-            
+            controller = 't';
             timerSpeed = 1000;
             time = 1;
             coords[0] = 5;
