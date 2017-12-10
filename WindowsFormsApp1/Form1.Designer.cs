@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -151,154 +152,160 @@
             this.button121 = new System.Windows.Forms.Button();
             this.button122 = new System.Windows.Forms.Button();
             this.button123 = new System.Windows.Forms.Button();
+            this.button124 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Cursor = System.Windows.Forms.Cursors.No;
             this.button2.Enabled = false;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Location = new System.Drawing.Point(28, 175);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(15, 15);
             this.button2.TabIndex = 1;
-            this.button2.Text = "■";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Cursor = System.Windows.Forms.Cursors.No;
             this.button3.Enabled = false;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button3.Location = new System.Drawing.Point(28, 154);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(15, 15);
             this.button3.TabIndex = 2;
-            this.button3.Text = "■";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button4.BackColor = System.Drawing.Color.White;
             this.button4.Cursor = System.Windows.Forms.Cursors.No;
             this.button4.Enabled = false;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button4.Location = new System.Drawing.Point(28, 133);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(15, 15);
             this.button4.TabIndex = 3;
-            this.button4.Text = "■";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.BackColor = System.Drawing.Color.White;
             this.button5.Cursor = System.Windows.Forms.Cursors.No;
             this.button5.Enabled = false;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button5.Location = new System.Drawing.Point(28, 112);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(15, 15);
             this.button5.TabIndex = 4;
-            this.button5.Text = "■";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button6.BackColor = System.Drawing.Color.White;
             this.button6.Cursor = System.Windows.Forms.Cursors.No;
             this.button6.Enabled = false;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button6.Location = new System.Drawing.Point(28, 91);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(15, 15);
             this.button6.TabIndex = 5;
-            this.button6.Text = "■";
             this.button6.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button7.BackColor = System.Drawing.Color.White;
             this.button7.Cursor = System.Windows.Forms.Cursors.No;
             this.button7.Enabled = false;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button7.Location = new System.Drawing.Point(28, 70);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(15, 15);
             this.button7.TabIndex = 6;
-            this.button7.Text = "■";
             this.button7.UseVisualStyleBackColor = false;
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button8.BackColor = System.Drawing.Color.White;
             this.button8.Cursor = System.Windows.Forms.Cursors.No;
             this.button8.Enabled = false;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button8.Location = new System.Drawing.Point(28, 49);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(15, 15);
             this.button8.TabIndex = 7;
-            this.button8.Text = "■";
             this.button8.UseVisualStyleBackColor = false;
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button9.BackColor = System.Drawing.Color.White;
             this.button9.Cursor = System.Windows.Forms.Cursors.No;
             this.button9.Enabled = false;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button9.Location = new System.Drawing.Point(28, 28);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(15, 15);
             this.button9.TabIndex = 8;
-            this.button9.Text = "■";
             this.button9.UseVisualStyleBackColor = false;
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button10.BackColor = System.Drawing.Color.White;
             this.button10.Cursor = System.Windows.Forms.Cursors.No;
             this.button10.Enabled = false;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button10.Location = new System.Drawing.Point(28, 7);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(15, 15);
             this.button10.TabIndex = 9;
-            this.button10.Text = "■";
             this.button10.UseVisualStyleBackColor = false;
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button11.BackColor = System.Drawing.Color.White;
             this.button11.Cursor = System.Windows.Forms.Cursors.No;
             this.button11.Enabled = false;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button11.Location = new System.Drawing.Point(49, 7);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(15, 15);
             this.button11.TabIndex = 19;
-            this.button11.Text = "■";
             this.button11.UseVisualStyleBackColor = false;
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button12.BackColor = System.Drawing.Color.White;
             this.button12.Cursor = System.Windows.Forms.Cursors.No;
             this.button12.Enabled = false;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button12.Location = new System.Drawing.Point(49, 28);
             this.button12.Name = "button12";
@@ -308,10 +315,11 @@
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button13.BackColor = System.Drawing.Color.White;
             this.button13.Cursor = System.Windows.Forms.Cursors.No;
             this.button13.Enabled = false;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button13.Location = new System.Drawing.Point(49, 49);
             this.button13.Name = "button13";
@@ -321,10 +329,11 @@
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button14.BackColor = System.Drawing.Color.White;
             this.button14.Cursor = System.Windows.Forms.Cursors.No;
             this.button14.Enabled = false;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button14.Location = new System.Drawing.Point(49, 70);
             this.button14.Name = "button14";
@@ -334,10 +343,11 @@
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button15.BackColor = System.Drawing.Color.White;
             this.button15.Cursor = System.Windows.Forms.Cursors.No;
             this.button15.Enabled = false;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button15.Location = new System.Drawing.Point(49, 91);
             this.button15.Name = "button15";
@@ -347,10 +357,11 @@
             // 
             // button16
             // 
-            this.button16.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button16.BackColor = System.Drawing.Color.White;
             this.button16.Cursor = System.Windows.Forms.Cursors.No;
             this.button16.Enabled = false;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button16.Location = new System.Drawing.Point(49, 112);
             this.button16.Name = "button16";
@@ -360,10 +371,11 @@
             // 
             // button17
             // 
-            this.button17.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button17.BackColor = System.Drawing.Color.White;
             this.button17.Cursor = System.Windows.Forms.Cursors.No;
             this.button17.Enabled = false;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button17.Location = new System.Drawing.Point(49, 133);
             this.button17.Name = "button17";
@@ -373,10 +385,11 @@
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button18.BackColor = System.Drawing.Color.White;
             this.button18.Cursor = System.Windows.Forms.Cursors.No;
             this.button18.Enabled = false;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button18.Location = new System.Drawing.Point(49, 154);
             this.button18.Name = "button18";
@@ -386,10 +399,11 @@
             // 
             // button19
             // 
-            this.button19.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button19.BackColor = System.Drawing.Color.White;
             this.button19.Cursor = System.Windows.Forms.Cursors.No;
             this.button19.Enabled = false;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button19.Location = new System.Drawing.Point(49, 175);
             this.button19.Name = "button19";
@@ -399,24 +413,25 @@
             // 
             // button21
             // 
-            this.button21.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button21.BackColor = System.Drawing.Color.White;
             this.button21.Cursor = System.Windows.Forms.Cursors.No;
             this.button21.Enabled = false;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button21.Location = new System.Drawing.Point(70, 7);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(15, 15);
             this.button21.TabIndex = 29;
-            this.button21.Text = "■";
             this.button21.UseVisualStyleBackColor = false;
             // 
             // button22
             // 
-            this.button22.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button22.BackColor = System.Drawing.Color.White;
             this.button22.Cursor = System.Windows.Forms.Cursors.No;
             this.button22.Enabled = false;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button22.Location = new System.Drawing.Point(70, 28);
             this.button22.Name = "button22";
@@ -426,10 +441,11 @@
             // 
             // button23
             // 
-            this.button23.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button23.BackColor = System.Drawing.Color.White;
             this.button23.Cursor = System.Windows.Forms.Cursors.No;
             this.button23.Enabled = false;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button23.Location = new System.Drawing.Point(70, 49);
             this.button23.Name = "button23";
@@ -439,10 +455,11 @@
             // 
             // button24
             // 
-            this.button24.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button24.BackColor = System.Drawing.Color.White;
             this.button24.Cursor = System.Windows.Forms.Cursors.No;
             this.button24.Enabled = false;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button24.Location = new System.Drawing.Point(70, 70);
             this.button24.Name = "button24";
@@ -452,10 +469,11 @@
             // 
             // button25
             // 
-            this.button25.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button25.BackColor = System.Drawing.Color.White;
             this.button25.Cursor = System.Windows.Forms.Cursors.No;
             this.button25.Enabled = false;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button25.Location = new System.Drawing.Point(70, 91);
             this.button25.Name = "button25";
@@ -465,10 +483,11 @@
             // 
             // button26
             // 
-            this.button26.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button26.BackColor = System.Drawing.Color.White;
             this.button26.Cursor = System.Windows.Forms.Cursors.No;
             this.button26.Enabled = false;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button26.Location = new System.Drawing.Point(70, 112);
             this.button26.Name = "button26";
@@ -478,10 +497,11 @@
             // 
             // button27
             // 
-            this.button27.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button27.BackColor = System.Drawing.Color.White;
             this.button27.Cursor = System.Windows.Forms.Cursors.No;
             this.button27.Enabled = false;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button27.Location = new System.Drawing.Point(70, 133);
             this.button27.Name = "button27";
@@ -491,10 +511,11 @@
             // 
             // button28
             // 
-            this.button28.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button28.BackColor = System.Drawing.Color.White;
             this.button28.Cursor = System.Windows.Forms.Cursors.No;
             this.button28.Enabled = false;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button28.Location = new System.Drawing.Point(70, 154);
             this.button28.Name = "button28";
@@ -504,10 +525,11 @@
             // 
             // button29
             // 
-            this.button29.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button29.BackColor = System.Drawing.Color.White;
             this.button29.Cursor = System.Windows.Forms.Cursors.No;
             this.button29.Enabled = false;
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button29.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button29.Location = new System.Drawing.Point(70, 175);
             this.button29.Name = "button29";
@@ -517,24 +539,25 @@
             // 
             // button31
             // 
-            this.button31.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button31.BackColor = System.Drawing.Color.White;
             this.button31.Cursor = System.Windows.Forms.Cursors.No;
             this.button31.Enabled = false;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button31.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button31.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button31.Location = new System.Drawing.Point(91, 7);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(15, 15);
             this.button31.TabIndex = 39;
-            this.button31.Text = "■";
             this.button31.UseVisualStyleBackColor = false;
             // 
             // button32
             // 
-            this.button32.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button32.BackColor = System.Drawing.Color.White;
             this.button32.Cursor = System.Windows.Forms.Cursors.No;
             this.button32.Enabled = false;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button32.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button32.Location = new System.Drawing.Point(91, 28);
             this.button32.Name = "button32";
@@ -544,10 +567,11 @@
             // 
             // button33
             // 
-            this.button33.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button33.BackColor = System.Drawing.Color.White;
             this.button33.Cursor = System.Windows.Forms.Cursors.No;
             this.button33.Enabled = false;
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button33.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button33.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button33.Location = new System.Drawing.Point(91, 49);
             this.button33.Name = "button33";
@@ -557,10 +581,11 @@
             // 
             // button34
             // 
-            this.button34.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button34.BackColor = System.Drawing.Color.White;
             this.button34.Cursor = System.Windows.Forms.Cursors.No;
             this.button34.Enabled = false;
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button34.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button34.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button34.Location = new System.Drawing.Point(91, 70);
             this.button34.Name = "button34";
@@ -570,10 +595,11 @@
             // 
             // button35
             // 
-            this.button35.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button35.BackColor = System.Drawing.Color.White;
             this.button35.Cursor = System.Windows.Forms.Cursors.No;
             this.button35.Enabled = false;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button35.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button35.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button35.Location = new System.Drawing.Point(91, 91);
             this.button35.Name = "button35";
@@ -583,10 +609,11 @@
             // 
             // button36
             // 
-            this.button36.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button36.BackColor = System.Drawing.Color.White;
             this.button36.Cursor = System.Windows.Forms.Cursors.No;
             this.button36.Enabled = false;
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button36.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button36.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button36.Location = new System.Drawing.Point(91, 112);
             this.button36.Name = "button36";
@@ -596,10 +623,11 @@
             // 
             // button37
             // 
-            this.button37.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button37.BackColor = System.Drawing.Color.White;
             this.button37.Cursor = System.Windows.Forms.Cursors.No;
             this.button37.Enabled = false;
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button37.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button37.Location = new System.Drawing.Point(91, 133);
             this.button37.Name = "button37";
@@ -609,10 +637,11 @@
             // 
             // button38
             // 
-            this.button38.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button38.BackColor = System.Drawing.Color.White;
             this.button38.Cursor = System.Windows.Forms.Cursors.No;
             this.button38.Enabled = false;
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button38.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button38.Location = new System.Drawing.Point(91, 154);
             this.button38.Name = "button38";
@@ -622,10 +651,11 @@
             // 
             // button39
             // 
-            this.button39.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button39.BackColor = System.Drawing.Color.White;
             this.button39.Cursor = System.Windows.Forms.Cursors.No;
             this.button39.Enabled = false;
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button39.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button39.Location = new System.Drawing.Point(91, 175);
             this.button39.Name = "button39";
@@ -635,24 +665,25 @@
             // 
             // button41
             // 
-            this.button41.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button41.BackColor = System.Drawing.Color.White;
             this.button41.Cursor = System.Windows.Forms.Cursors.No;
             this.button41.Enabled = false;
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button41.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button41.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button41.Location = new System.Drawing.Point(112, 7);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(15, 15);
             this.button41.TabIndex = 49;
-            this.button41.Text = "■";
             this.button41.UseVisualStyleBackColor = false;
             // 
             // button42
             // 
-            this.button42.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button42.BackColor = System.Drawing.Color.White;
             this.button42.Cursor = System.Windows.Forms.Cursors.No;
             this.button42.Enabled = false;
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button42.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button42.Location = new System.Drawing.Point(112, 28);
             this.button42.Name = "button42";
@@ -662,10 +693,11 @@
             // 
             // button43
             // 
-            this.button43.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button43.BackColor = System.Drawing.Color.White;
             this.button43.Cursor = System.Windows.Forms.Cursors.No;
             this.button43.Enabled = false;
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button43.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button43.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button43.Location = new System.Drawing.Point(112, 49);
             this.button43.Name = "button43";
@@ -675,10 +707,11 @@
             // 
             // button44
             // 
-            this.button44.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button44.BackColor = System.Drawing.Color.White;
             this.button44.Cursor = System.Windows.Forms.Cursors.No;
             this.button44.Enabled = false;
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button44.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button44.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button44.Location = new System.Drawing.Point(112, 70);
             this.button44.Name = "button44";
@@ -688,10 +721,11 @@
             // 
             // button45
             // 
-            this.button45.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button45.BackColor = System.Drawing.Color.White;
             this.button45.Cursor = System.Windows.Forms.Cursors.No;
             this.button45.Enabled = false;
-            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button45.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button45.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button45.Location = new System.Drawing.Point(112, 91);
             this.button45.Name = "button45";
@@ -701,10 +735,11 @@
             // 
             // button46
             // 
-            this.button46.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button46.BackColor = System.Drawing.Color.White;
             this.button46.Cursor = System.Windows.Forms.Cursors.No;
             this.button46.Enabled = false;
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button46.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button46.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button46.Location = new System.Drawing.Point(112, 112);
             this.button46.Name = "button46";
@@ -714,10 +749,11 @@
             // 
             // button47
             // 
-            this.button47.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button47.BackColor = System.Drawing.Color.White;
             this.button47.Cursor = System.Windows.Forms.Cursors.No;
             this.button47.Enabled = false;
-            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button47.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button47.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button47.Location = new System.Drawing.Point(112, 133);
             this.button47.Name = "button47";
@@ -727,10 +763,11 @@
             // 
             // button48
             // 
-            this.button48.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button48.BackColor = System.Drawing.Color.White;
             this.button48.Cursor = System.Windows.Forms.Cursors.No;
             this.button48.Enabled = false;
-            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button48.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button48.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button48.Location = new System.Drawing.Point(112, 154);
             this.button48.Name = "button48";
@@ -740,10 +777,11 @@
             // 
             // button49
             // 
-            this.button49.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button49.BackColor = System.Drawing.Color.White;
             this.button49.Cursor = System.Windows.Forms.Cursors.No;
             this.button49.Enabled = false;
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button49.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button49.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button49.Location = new System.Drawing.Point(112, 175);
             this.button49.Name = "button49";
@@ -753,24 +791,25 @@
             // 
             // button51
             // 
-            this.button51.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button51.BackColor = System.Drawing.Color.White;
             this.button51.Cursor = System.Windows.Forms.Cursors.No;
             this.button51.Enabled = false;
-            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button51.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button51.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button51.Location = new System.Drawing.Point(133, 7);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(15, 15);
             this.button51.TabIndex = 59;
-            this.button51.Text = "■";
             this.button51.UseVisualStyleBackColor = false;
             // 
             // button52
             // 
-            this.button52.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button52.BackColor = System.Drawing.Color.White;
             this.button52.Cursor = System.Windows.Forms.Cursors.No;
             this.button52.Enabled = false;
-            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button52.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button52.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button52.Location = new System.Drawing.Point(133, 28);
             this.button52.Name = "button52";
@@ -780,10 +819,11 @@
             // 
             // button53
             // 
-            this.button53.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button53.BackColor = System.Drawing.Color.White;
             this.button53.Cursor = System.Windows.Forms.Cursors.No;
             this.button53.Enabled = false;
-            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button53.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button53.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button53.Location = new System.Drawing.Point(133, 49);
             this.button53.Name = "button53";
@@ -793,10 +833,11 @@
             // 
             // button54
             // 
-            this.button54.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button54.BackColor = System.Drawing.Color.White;
             this.button54.Cursor = System.Windows.Forms.Cursors.No;
             this.button54.Enabled = false;
-            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button54.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button54.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button54.Location = new System.Drawing.Point(133, 70);
             this.button54.Name = "button54";
@@ -806,10 +847,11 @@
             // 
             // button55
             // 
-            this.button55.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button55.BackColor = System.Drawing.Color.White;
             this.button55.Cursor = System.Windows.Forms.Cursors.No;
             this.button55.Enabled = false;
-            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button55.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button55.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button55.Location = new System.Drawing.Point(133, 91);
             this.button55.Name = "button55";
@@ -819,24 +861,25 @@
             // 
             // button56
             // 
-            this.button56.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button56.BackColor = System.Drawing.Color.White;
             this.button56.Cursor = System.Windows.Forms.Cursors.No;
             this.button56.Enabled = false;
-            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button56.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button56.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button56.Location = new System.Drawing.Point(133, 112);
             this.button56.Name = "button56";
             this.button56.Size = new System.Drawing.Size(15, 15);
             this.button56.TabIndex = 54;
-            this.button56.Text = "■";
             this.button56.UseVisualStyleBackColor = false;
             // 
             // button57
             // 
-            this.button57.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button57.BackColor = System.Drawing.Color.White;
             this.button57.Cursor = System.Windows.Forms.Cursors.No;
             this.button57.Enabled = false;
-            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button57.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button57.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button57.Location = new System.Drawing.Point(133, 133);
             this.button57.Name = "button57";
@@ -846,10 +889,11 @@
             // 
             // button58
             // 
-            this.button58.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button58.BackColor = System.Drawing.Color.White;
             this.button58.Cursor = System.Windows.Forms.Cursors.No;
             this.button58.Enabled = false;
-            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button58.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button58.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button58.Location = new System.Drawing.Point(133, 154);
             this.button58.Name = "button58";
@@ -859,10 +903,11 @@
             // 
             // button59
             // 
-            this.button59.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button59.BackColor = System.Drawing.Color.White;
             this.button59.Cursor = System.Windows.Forms.Cursors.No;
             this.button59.Enabled = false;
-            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button59.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button59.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button59.Location = new System.Drawing.Point(133, 175);
             this.button59.Name = "button59";
@@ -872,24 +917,25 @@
             // 
             // button61
             // 
-            this.button61.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button61.BackColor = System.Drawing.Color.White;
             this.button61.Cursor = System.Windows.Forms.Cursors.No;
             this.button61.Enabled = false;
-            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button61.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button61.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button61.Location = new System.Drawing.Point(154, 7);
             this.button61.Name = "button61";
             this.button61.Size = new System.Drawing.Size(15, 15);
             this.button61.TabIndex = 69;
-            this.button61.Text = "■";
             this.button61.UseVisualStyleBackColor = false;
             // 
             // button62
             // 
-            this.button62.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button62.BackColor = System.Drawing.Color.White;
             this.button62.Cursor = System.Windows.Forms.Cursors.No;
             this.button62.Enabled = false;
-            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button62.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button62.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button62.Location = new System.Drawing.Point(154, 28);
             this.button62.Name = "button62";
@@ -899,10 +945,11 @@
             // 
             // button63
             // 
-            this.button63.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button63.BackColor = System.Drawing.Color.White;
             this.button63.Cursor = System.Windows.Forms.Cursors.No;
             this.button63.Enabled = false;
-            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button63.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button63.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button63.Location = new System.Drawing.Point(154, 49);
             this.button63.Name = "button63";
@@ -912,10 +959,11 @@
             // 
             // button64
             // 
-            this.button64.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button64.BackColor = System.Drawing.Color.White;
             this.button64.Cursor = System.Windows.Forms.Cursors.No;
             this.button64.Enabled = false;
-            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button64.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button64.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button64.Location = new System.Drawing.Point(154, 70);
             this.button64.Name = "button64";
@@ -925,10 +973,11 @@
             // 
             // button65
             // 
-            this.button65.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button65.BackColor = System.Drawing.Color.White;
             this.button65.Cursor = System.Windows.Forms.Cursors.No;
             this.button65.Enabled = false;
-            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button65.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button65.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button65.Location = new System.Drawing.Point(154, 91);
             this.button65.Name = "button65";
@@ -938,10 +987,11 @@
             // 
             // button66
             // 
-            this.button66.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button66.BackColor = System.Drawing.Color.White;
             this.button66.Cursor = System.Windows.Forms.Cursors.No;
             this.button66.Enabled = false;
-            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button66.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button66.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button66.Location = new System.Drawing.Point(154, 112);
             this.button66.Name = "button66";
@@ -951,10 +1001,11 @@
             // 
             // button67
             // 
-            this.button67.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button67.BackColor = System.Drawing.Color.White;
             this.button67.Cursor = System.Windows.Forms.Cursors.No;
             this.button67.Enabled = false;
-            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button67.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button67.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button67.Location = new System.Drawing.Point(154, 133);
             this.button67.Name = "button67";
@@ -964,10 +1015,11 @@
             // 
             // button68
             // 
-            this.button68.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button68.BackColor = System.Drawing.Color.White;
             this.button68.Cursor = System.Windows.Forms.Cursors.No;
             this.button68.Enabled = false;
-            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button68.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button68.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button68.Location = new System.Drawing.Point(154, 154);
             this.button68.Name = "button68";
@@ -977,10 +1029,11 @@
             // 
             // button69
             // 
-            this.button69.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button69.BackColor = System.Drawing.Color.White;
             this.button69.Cursor = System.Windows.Forms.Cursors.No;
             this.button69.Enabled = false;
-            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button69.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button69.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button69.Location = new System.Drawing.Point(154, 175);
             this.button69.Name = "button69";
@@ -990,24 +1043,25 @@
             // 
             // button71
             // 
-            this.button71.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button71.BackColor = System.Drawing.Color.White;
             this.button71.Cursor = System.Windows.Forms.Cursors.No;
             this.button71.Enabled = false;
-            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button71.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button71.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button71.Location = new System.Drawing.Point(175, 7);
             this.button71.Name = "button71";
             this.button71.Size = new System.Drawing.Size(15, 15);
             this.button71.TabIndex = 79;
-            this.button71.Text = "■";
             this.button71.UseVisualStyleBackColor = false;
             // 
             // button72
             // 
-            this.button72.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button72.BackColor = System.Drawing.Color.White;
             this.button72.Cursor = System.Windows.Forms.Cursors.No;
             this.button72.Enabled = false;
-            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button72.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button72.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button72.Location = new System.Drawing.Point(175, 28);
             this.button72.Name = "button72";
@@ -1017,10 +1071,11 @@
             // 
             // button73
             // 
-            this.button73.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button73.BackColor = System.Drawing.Color.White;
             this.button73.Cursor = System.Windows.Forms.Cursors.No;
             this.button73.Enabled = false;
-            this.button73.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button73.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button73.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button73.Location = new System.Drawing.Point(175, 49);
             this.button73.Name = "button73";
@@ -1030,10 +1085,11 @@
             // 
             // button74
             // 
-            this.button74.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button74.BackColor = System.Drawing.Color.White;
             this.button74.Cursor = System.Windows.Forms.Cursors.No;
             this.button74.Enabled = false;
-            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button74.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button74.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button74.Location = new System.Drawing.Point(175, 70);
             this.button74.Name = "button74";
@@ -1043,10 +1099,11 @@
             // 
             // button75
             // 
-            this.button75.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button75.BackColor = System.Drawing.Color.White;
             this.button75.Cursor = System.Windows.Forms.Cursors.No;
             this.button75.Enabled = false;
-            this.button75.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button75.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button75.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button75.Location = new System.Drawing.Point(175, 91);
             this.button75.Name = "button75";
@@ -1056,10 +1113,11 @@
             // 
             // button76
             // 
-            this.button76.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button76.BackColor = System.Drawing.Color.White;
             this.button76.Cursor = System.Windows.Forms.Cursors.No;
             this.button76.Enabled = false;
-            this.button76.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button76.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button76.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button76.Location = new System.Drawing.Point(175, 112);
             this.button76.Name = "button76";
@@ -1069,10 +1127,11 @@
             // 
             // button77
             // 
-            this.button77.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button77.BackColor = System.Drawing.Color.White;
             this.button77.Cursor = System.Windows.Forms.Cursors.No;
             this.button77.Enabled = false;
-            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button77.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button77.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button77.Location = new System.Drawing.Point(175, 133);
             this.button77.Name = "button77";
@@ -1082,10 +1141,11 @@
             // 
             // button78
             // 
-            this.button78.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button78.BackColor = System.Drawing.Color.White;
             this.button78.Cursor = System.Windows.Forms.Cursors.No;
             this.button78.Enabled = false;
-            this.button78.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button78.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button78.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button78.Location = new System.Drawing.Point(175, 154);
             this.button78.Name = "button78";
@@ -1095,10 +1155,11 @@
             // 
             // button79
             // 
-            this.button79.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button79.BackColor = System.Drawing.Color.White;
             this.button79.Cursor = System.Windows.Forms.Cursors.No;
             this.button79.Enabled = false;
-            this.button79.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button79.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button79.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button79.Location = new System.Drawing.Point(175, 175);
             this.button79.Name = "button79";
@@ -1108,24 +1169,25 @@
             // 
             // button81
             // 
-            this.button81.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button81.BackColor = System.Drawing.Color.White;
             this.button81.Cursor = System.Windows.Forms.Cursors.No;
             this.button81.Enabled = false;
-            this.button81.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button81.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button81.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button81.Location = new System.Drawing.Point(196, 7);
             this.button81.Name = "button81";
             this.button81.Size = new System.Drawing.Size(15, 15);
             this.button81.TabIndex = 89;
-            this.button81.Text = "■";
             this.button81.UseVisualStyleBackColor = false;
             // 
             // button82
             // 
-            this.button82.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button82.BackColor = System.Drawing.Color.White;
             this.button82.Cursor = System.Windows.Forms.Cursors.No;
             this.button82.Enabled = false;
-            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button82.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button82.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button82.Location = new System.Drawing.Point(196, 28);
             this.button82.Name = "button82";
@@ -1135,10 +1197,11 @@
             // 
             // button83
             // 
-            this.button83.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button83.BackColor = System.Drawing.Color.White;
             this.button83.Cursor = System.Windows.Forms.Cursors.No;
             this.button83.Enabled = false;
-            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button83.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button83.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button83.Location = new System.Drawing.Point(196, 49);
             this.button83.Name = "button83";
@@ -1148,10 +1211,11 @@
             // 
             // button84
             // 
-            this.button84.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button84.BackColor = System.Drawing.Color.White;
             this.button84.Cursor = System.Windows.Forms.Cursors.No;
             this.button84.Enabled = false;
-            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button84.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button84.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button84.Location = new System.Drawing.Point(196, 70);
             this.button84.Name = "button84";
@@ -1161,10 +1225,11 @@
             // 
             // button85
             // 
-            this.button85.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button85.BackColor = System.Drawing.Color.White;
             this.button85.Cursor = System.Windows.Forms.Cursors.No;
             this.button85.Enabled = false;
-            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button85.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button85.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button85.Location = new System.Drawing.Point(196, 91);
             this.button85.Name = "button85";
@@ -1174,10 +1239,11 @@
             // 
             // button86
             // 
-            this.button86.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button86.BackColor = System.Drawing.Color.White;
             this.button86.Cursor = System.Windows.Forms.Cursors.No;
             this.button86.Enabled = false;
-            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button86.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button86.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button86.Location = new System.Drawing.Point(196, 112);
             this.button86.Name = "button86";
@@ -1187,10 +1253,11 @@
             // 
             // button87
             // 
-            this.button87.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button87.BackColor = System.Drawing.Color.White;
             this.button87.Cursor = System.Windows.Forms.Cursors.No;
             this.button87.Enabled = false;
-            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button87.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button87.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button87.Location = new System.Drawing.Point(196, 133);
             this.button87.Name = "button87";
@@ -1200,10 +1267,11 @@
             // 
             // button88
             // 
-            this.button88.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button88.BackColor = System.Drawing.Color.White;
             this.button88.Cursor = System.Windows.Forms.Cursors.No;
             this.button88.Enabled = false;
-            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button88.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button88.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button88.Location = new System.Drawing.Point(196, 154);
             this.button88.Name = "button88";
@@ -1213,10 +1281,11 @@
             // 
             // button89
             // 
-            this.button89.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button89.BackColor = System.Drawing.Color.White;
             this.button89.Cursor = System.Windows.Forms.Cursors.No;
             this.button89.Enabled = false;
-            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button89.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button89.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button89.Location = new System.Drawing.Point(196, 175);
             this.button89.Name = "button89";
@@ -1226,10 +1295,11 @@
             // 
             // button99
             // 
-            this.button99.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button99.BackColor = System.Drawing.Color.White;
             this.button99.Cursor = System.Windows.Forms.Cursors.No;
             this.button99.Enabled = false;
-            this.button99.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button99.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button99.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button99.Location = new System.Drawing.Point(217, 175);
             this.button99.Name = "button99";
@@ -1239,10 +1309,11 @@
             // 
             // button98
             // 
-            this.button98.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button98.BackColor = System.Drawing.Color.White;
             this.button98.Cursor = System.Windows.Forms.Cursors.No;
             this.button98.Enabled = false;
-            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button98.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button98.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button98.Location = new System.Drawing.Point(217, 154);
             this.button98.Name = "button98";
@@ -1252,10 +1323,11 @@
             // 
             // button97
             // 
-            this.button97.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button97.BackColor = System.Drawing.Color.White;
             this.button97.Cursor = System.Windows.Forms.Cursors.No;
             this.button97.Enabled = false;
-            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button97.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button97.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button97.Location = new System.Drawing.Point(217, 133);
             this.button97.Name = "button97";
@@ -1265,10 +1337,11 @@
             // 
             // button96
             // 
-            this.button96.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button96.BackColor = System.Drawing.Color.White;
             this.button96.Cursor = System.Windows.Forms.Cursors.No;
             this.button96.Enabled = false;
-            this.button96.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button96.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button96.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button96.Location = new System.Drawing.Point(217, 112);
             this.button96.Name = "button96";
@@ -1278,10 +1351,11 @@
             // 
             // button95
             // 
-            this.button95.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button95.BackColor = System.Drawing.Color.White;
             this.button95.Cursor = System.Windows.Forms.Cursors.No;
             this.button95.Enabled = false;
-            this.button95.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button95.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button95.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button95.Location = new System.Drawing.Point(217, 91);
             this.button95.Name = "button95";
@@ -1291,10 +1365,11 @@
             // 
             // button94
             // 
-            this.button94.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button94.BackColor = System.Drawing.Color.White;
             this.button94.Cursor = System.Windows.Forms.Cursors.No;
             this.button94.Enabled = false;
-            this.button94.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button94.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button94.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button94.Location = new System.Drawing.Point(217, 70);
             this.button94.Name = "button94";
@@ -1304,10 +1379,11 @@
             // 
             // button93
             // 
-            this.button93.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button93.BackColor = System.Drawing.Color.White;
             this.button93.Cursor = System.Windows.Forms.Cursors.No;
             this.button93.Enabled = false;
-            this.button93.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button93.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button93.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button93.Location = new System.Drawing.Point(217, 49);
             this.button93.Name = "button93";
@@ -1317,10 +1393,11 @@
             // 
             // button92
             // 
-            this.button92.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button92.BackColor = System.Drawing.Color.White;
             this.button92.Cursor = System.Windows.Forms.Cursors.No;
             this.button92.Enabled = false;
-            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button92.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button92.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button92.Location = new System.Drawing.Point(217, 28);
             this.button92.Name = "button92";
@@ -1330,38 +1407,39 @@
             // 
             // button91
             // 
-            this.button91.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button91.BackColor = System.Drawing.Color.White;
             this.button91.Cursor = System.Windows.Forms.Cursors.No;
             this.button91.Enabled = false;
-            this.button91.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button91.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button91.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button91.Location = new System.Drawing.Point(217, 7);
             this.button91.Name = "button91";
             this.button91.Size = new System.Drawing.Size(15, 15);
             this.button91.TabIndex = 99;
-            this.button91.Text = "■";
             this.button91.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Cursor = System.Windows.Forms.Cursors.No;
             this.button1.Enabled = false;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(28, 196);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(15, 15);
             this.button1.TabIndex = 0;
-            this.button1.Text = "■";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button20
             // 
-            this.button20.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button20.BackColor = System.Drawing.Color.White;
             this.button20.Cursor = System.Windows.Forms.Cursors.No;
             this.button20.Enabled = false;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button20.Location = new System.Drawing.Point(49, 196);
             this.button20.Name = "button20";
@@ -1371,10 +1449,11 @@
             // 
             // button30
             // 
-            this.button30.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button30.BackColor = System.Drawing.Color.White;
             this.button30.Cursor = System.Windows.Forms.Cursors.No;
             this.button30.Enabled = false;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button30.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button30.Location = new System.Drawing.Point(70, 196);
             this.button30.Name = "button30";
@@ -1384,10 +1463,11 @@
             // 
             // button40
             // 
-            this.button40.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button40.BackColor = System.Drawing.Color.White;
             this.button40.Cursor = System.Windows.Forms.Cursors.No;
             this.button40.Enabled = false;
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button40.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button40.Location = new System.Drawing.Point(91, 196);
             this.button40.Name = "button40";
@@ -1397,10 +1477,11 @@
             // 
             // button50
             // 
-            this.button50.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button50.BackColor = System.Drawing.Color.White;
             this.button50.Cursor = System.Windows.Forms.Cursors.No;
             this.button50.Enabled = false;
-            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button50.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button50.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button50.Location = new System.Drawing.Point(112, 196);
             this.button50.Name = "button50";
@@ -1410,10 +1491,11 @@
             // 
             // button60
             // 
-            this.button60.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button60.BackColor = System.Drawing.Color.White;
             this.button60.Cursor = System.Windows.Forms.Cursors.No;
             this.button60.Enabled = false;
-            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button60.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button60.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button60.Location = new System.Drawing.Point(133, 196);
             this.button60.Name = "button60";
@@ -1423,10 +1505,11 @@
             // 
             // button70
             // 
-            this.button70.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button70.BackColor = System.Drawing.Color.White;
             this.button70.Cursor = System.Windows.Forms.Cursors.No;
             this.button70.Enabled = false;
-            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button70.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button70.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button70.Location = new System.Drawing.Point(154, 196);
             this.button70.Name = "button70";
@@ -1436,10 +1519,11 @@
             // 
             // button80
             // 
-            this.button80.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button80.BackColor = System.Drawing.Color.White;
             this.button80.Cursor = System.Windows.Forms.Cursors.No;
             this.button80.Enabled = false;
-            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button80.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button80.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button80.Location = new System.Drawing.Point(175, 196);
             this.button80.Name = "button80";
@@ -1449,10 +1533,11 @@
             // 
             // button90
             // 
-            this.button90.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button90.BackColor = System.Drawing.Color.White;
             this.button90.Cursor = System.Windows.Forms.Cursors.No;
             this.button90.Enabled = false;
-            this.button90.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button90.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button90.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button90.Location = new System.Drawing.Point(196, 196);
             this.button90.Name = "button90";
@@ -1462,10 +1547,11 @@
             // 
             // button100
             // 
-            this.button100.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button100.BackColor = System.Drawing.Color.White;
             this.button100.Cursor = System.Windows.Forms.Cursors.No;
             this.button100.Enabled = false;
-            this.button100.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button100.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button100.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button100.Location = new System.Drawing.Point(217, 196);
             this.button100.Name = "button100";
@@ -1475,300 +1561,301 @@
             // 
             // button101
             // 
-            this.button101.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button101.BackColor = System.Drawing.Color.White;
             this.button101.Cursor = System.Windows.Forms.Cursors.No;
             this.button101.Enabled = false;
-            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button101.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button101.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button101.Location = new System.Drawing.Point(238, 7);
             this.button101.Name = "button101";
             this.button101.Size = new System.Drawing.Size(15, 15);
             this.button101.TabIndex = 109;
-            this.button101.Text = "■";
             this.button101.UseVisualStyleBackColor = false;
             // 
             // button102
             // 
-            this.button102.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button102.BackColor = System.Drawing.Color.White;
             this.button102.Cursor = System.Windows.Forms.Cursors.No;
             this.button102.Enabled = false;
-            this.button102.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button102.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button102.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button102.Location = new System.Drawing.Point(238, 28);
             this.button102.Name = "button102";
             this.button102.Size = new System.Drawing.Size(15, 15);
             this.button102.TabIndex = 108;
-            this.button102.Text = "■";
             this.button102.UseVisualStyleBackColor = false;
             // 
             // button103
             // 
-            this.button103.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button103.BackColor = System.Drawing.Color.White;
             this.button103.Cursor = System.Windows.Forms.Cursors.No;
             this.button103.Enabled = false;
-            this.button103.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button103.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button103.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button103.Location = new System.Drawing.Point(238, 49);
             this.button103.Name = "button103";
             this.button103.Size = new System.Drawing.Size(15, 15);
             this.button103.TabIndex = 107;
-            this.button103.Text = "■";
             this.button103.UseVisualStyleBackColor = false;
             // 
             // button104
             // 
-            this.button104.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button104.BackColor = System.Drawing.Color.White;
             this.button104.Cursor = System.Windows.Forms.Cursors.No;
             this.button104.Enabled = false;
-            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button104.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button104.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button104.Location = new System.Drawing.Point(238, 70);
             this.button104.Name = "button104";
             this.button104.Size = new System.Drawing.Size(15, 15);
             this.button104.TabIndex = 106;
-            this.button104.Text = "■";
             this.button104.UseVisualStyleBackColor = false;
             // 
             // button105
             // 
-            this.button105.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button105.BackColor = System.Drawing.Color.White;
             this.button105.Cursor = System.Windows.Forms.Cursors.No;
             this.button105.Enabled = false;
-            this.button105.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button105.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button105.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button105.Location = new System.Drawing.Point(238, 91);
             this.button105.Name = "button105";
             this.button105.Size = new System.Drawing.Size(15, 15);
             this.button105.TabIndex = 105;
-            this.button105.Text = "■";
             this.button105.UseVisualStyleBackColor = false;
             // 
             // button106
             // 
-            this.button106.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button106.BackColor = System.Drawing.Color.White;
             this.button106.Cursor = System.Windows.Forms.Cursors.No;
             this.button106.Enabled = false;
-            this.button106.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button106.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button106.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button106.Location = new System.Drawing.Point(238, 112);
             this.button106.Name = "button106";
             this.button106.Size = new System.Drawing.Size(15, 15);
             this.button106.TabIndex = 104;
-            this.button106.Text = "■";
             this.button106.UseVisualStyleBackColor = false;
             // 
             // button107
             // 
-            this.button107.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button107.BackColor = System.Drawing.Color.White;
             this.button107.Cursor = System.Windows.Forms.Cursors.No;
             this.button107.Enabled = false;
-            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button107.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button107.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button107.Location = new System.Drawing.Point(238, 133);
             this.button107.Name = "button107";
             this.button107.Size = new System.Drawing.Size(15, 15);
             this.button107.TabIndex = 103;
-            this.button107.Text = "■";
             this.button107.UseVisualStyleBackColor = false;
             // 
             // button108
             // 
-            this.button108.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button108.BackColor = System.Drawing.Color.White;
             this.button108.Cursor = System.Windows.Forms.Cursors.No;
             this.button108.Enabled = false;
-            this.button108.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button108.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button108.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button108.Location = new System.Drawing.Point(238, 154);
             this.button108.Name = "button108";
             this.button108.Size = new System.Drawing.Size(15, 15);
             this.button108.TabIndex = 102;
-            this.button108.Text = "■";
             this.button108.UseVisualStyleBackColor = false;
             // 
             // button109
             // 
-            this.button109.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button109.BackColor = System.Drawing.Color.White;
             this.button109.Cursor = System.Windows.Forms.Cursors.No;
             this.button109.Enabled = false;
-            this.button109.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button109.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button109.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button109.Location = new System.Drawing.Point(238, 175);
             this.button109.Name = "button109";
             this.button109.Size = new System.Drawing.Size(15, 15);
             this.button109.TabIndex = 101;
-            this.button109.Text = "■";
             this.button109.UseVisualStyleBackColor = false;
             // 
             // button110
             // 
-            this.button110.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button110.BackColor = System.Drawing.Color.White;
             this.button110.Cursor = System.Windows.Forms.Cursors.No;
             this.button110.Enabled = false;
-            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button110.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button110.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button110.Location = new System.Drawing.Point(238, 196);
             this.button110.Name = "button110";
             this.button110.Size = new System.Drawing.Size(15, 15);
             this.button110.TabIndex = 100;
-            this.button110.Text = "■";
             this.button110.UseVisualStyleBackColor = false;
             // 
             // button111
             // 
-            this.button111.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button111.BackColor = System.Drawing.Color.White;
             this.button111.Cursor = System.Windows.Forms.Cursors.No;
             this.button111.Enabled = false;
-            this.button111.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button111.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button111.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button111.Location = new System.Drawing.Point(238, 217);
             this.button111.Name = "button111";
             this.button111.Size = new System.Drawing.Size(15, 15);
             this.button111.TabIndex = 120;
-            this.button111.Text = "■";
             this.button111.UseVisualStyleBackColor = false;
             // 
             // button112
             // 
-            this.button112.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button112.BackColor = System.Drawing.Color.White;
             this.button112.Cursor = System.Windows.Forms.Cursors.No;
             this.button112.Enabled = false;
-            this.button112.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button112.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button112.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button112.Location = new System.Drawing.Point(217, 217);
             this.button112.Name = "button112";
             this.button112.Size = new System.Drawing.Size(15, 15);
             this.button112.TabIndex = 119;
-            this.button112.Text = "■";
             this.button112.UseVisualStyleBackColor = false;
             // 
             // button113
             // 
-            this.button113.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button113.BackColor = System.Drawing.Color.White;
             this.button113.Cursor = System.Windows.Forms.Cursors.No;
             this.button113.Enabled = false;
-            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button113.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button113.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button113.Location = new System.Drawing.Point(196, 217);
             this.button113.Name = "button113";
             this.button113.Size = new System.Drawing.Size(15, 15);
             this.button113.TabIndex = 118;
-            this.button113.Text = "■";
             this.button113.UseVisualStyleBackColor = false;
             // 
             // button114
             // 
-            this.button114.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button114.BackColor = System.Drawing.Color.White;
             this.button114.Cursor = System.Windows.Forms.Cursors.No;
             this.button114.Enabled = false;
-            this.button114.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button114.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button114.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button114.Location = new System.Drawing.Point(175, 217);
             this.button114.Name = "button114";
             this.button114.Size = new System.Drawing.Size(15, 15);
             this.button114.TabIndex = 117;
-            this.button114.Text = "■";
             this.button114.UseVisualStyleBackColor = false;
             // 
             // button115
             // 
-            this.button115.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button115.BackColor = System.Drawing.Color.White;
             this.button115.Cursor = System.Windows.Forms.Cursors.No;
             this.button115.Enabled = false;
-            this.button115.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button115.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button115.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button115.Location = new System.Drawing.Point(154, 217);
             this.button115.Name = "button115";
             this.button115.Size = new System.Drawing.Size(15, 15);
             this.button115.TabIndex = 116;
-            this.button115.Text = "■";
             this.button115.UseVisualStyleBackColor = false;
             // 
             // button116
             // 
-            this.button116.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button116.BackColor = System.Drawing.Color.White;
             this.button116.Cursor = System.Windows.Forms.Cursors.No;
             this.button116.Enabled = false;
-            this.button116.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button116.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button116.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button116.Location = new System.Drawing.Point(133, 217);
             this.button116.Name = "button116";
             this.button116.Size = new System.Drawing.Size(15, 15);
             this.button116.TabIndex = 115;
-            this.button116.Text = "■";
             this.button116.UseVisualStyleBackColor = false;
             // 
             // button117
             // 
-            this.button117.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button117.BackColor = System.Drawing.Color.White;
             this.button117.Cursor = System.Windows.Forms.Cursors.No;
             this.button117.Enabled = false;
-            this.button117.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button117.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button117.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button117.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button117.Location = new System.Drawing.Point(112, 217);
             this.button117.Name = "button117";
             this.button117.Size = new System.Drawing.Size(15, 15);
             this.button117.TabIndex = 114;
-            this.button117.Text = "■";
             this.button117.UseVisualStyleBackColor = false;
             // 
             // button118
             // 
-            this.button118.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button118.BackColor = System.Drawing.Color.White;
             this.button118.Cursor = System.Windows.Forms.Cursors.No;
             this.button118.Enabled = false;
-            this.button118.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button118.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button118.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button118.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button118.Location = new System.Drawing.Point(91, 217);
             this.button118.Name = "button118";
             this.button118.Size = new System.Drawing.Size(15, 15);
             this.button118.TabIndex = 113;
-            this.button118.Text = "■";
             this.button118.UseVisualStyleBackColor = false;
             // 
             // button119
             // 
-            this.button119.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button119.BackColor = System.Drawing.Color.White;
             this.button119.Cursor = System.Windows.Forms.Cursors.No;
             this.button119.Enabled = false;
-            this.button119.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button119.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button119.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button119.Location = new System.Drawing.Point(70, 217);
             this.button119.Name = "button119";
             this.button119.Size = new System.Drawing.Size(15, 15);
             this.button119.TabIndex = 112;
-            this.button119.Text = "■";
             this.button119.UseVisualStyleBackColor = false;
             // 
             // button120
             // 
-            this.button120.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button120.BackColor = System.Drawing.Color.White;
             this.button120.Cursor = System.Windows.Forms.Cursors.No;
             this.button120.Enabled = false;
-            this.button120.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button120.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button120.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button120.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button120.Location = new System.Drawing.Point(49, 217);
             this.button120.Name = "button120";
             this.button120.Size = new System.Drawing.Size(15, 15);
             this.button120.TabIndex = 111;
-            this.button120.Text = "■";
             this.button120.UseVisualStyleBackColor = false;
             // 
             // button121
             // 
-            this.button121.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button121.BackColor = System.Drawing.Color.White;
             this.button121.Cursor = System.Windows.Forms.Cursors.No;
             this.button121.Enabled = false;
-            this.button121.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button121.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button121.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button121.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button121.Location = new System.Drawing.Point(28, 217);
             this.button121.Name = "button121";
             this.button121.Size = new System.Drawing.Size(15, 15);
             this.button121.TabIndex = 110;
-            this.button121.Text = "■";
             this.button121.UseVisualStyleBackColor = false;
             // 
             // button122
             // 
+            this.button122.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button122.Location = new System.Drawing.Point(28, 234);
             this.button122.Name = "button122";
             this.button122.Size = new System.Drawing.Size(90, 25);
@@ -1778,18 +1865,70 @@
             // 
             // button123
             // 
-            this.button123.Location = new System.Drawing.Point(133, 234);
+            this.button123.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button123.Location = new System.Drawing.Point(163, 234);
             this.button123.Name = "button123";
             this.button123.Size = new System.Drawing.Size(90, 25);
             this.button123.TabIndex = 122;
-            this.button123.Text = "Controller";
+            this.button123.Text = "GridCoords";
             this.button123.UseVisualStyleBackColor = true;
+            this.button123.Visible = false;
+            // 
+            // button124
+            // 
+            this.button124.BackColor = System.Drawing.Color.Red;
+            this.button124.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button124.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button124.Location = new System.Drawing.Point(70, 91);
+            this.button124.Name = "button124";
+            this.button124.Size = new System.Drawing.Size(141, 57);
+            this.button124.TabIndex = 123;
+            this.button124.Text = "         Game Over           Press this key to restart";
+            this.button124.UseVisualStyleBackColor = false;
+            this.button124.Visible = false;
+            this.button124.Click += new System.EventHandler(this.button124_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(260, 7);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(141, 141);
+            this.textBox1.TabIndex = 124;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.Snake;
+            this.pictureBox1.Location = new System.Drawing.Point(260, 155);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(141, 104);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 125;
+            this.pictureBox1.TabStop = false;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(133, 239);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 126;
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(413, 269);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button124);
             this.Controls.Add(this.button123);
             this.Controls.Add(this.button122);
             this.Controls.Add(this.button111);
@@ -1913,11 +2052,15 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Snake?";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2045,6 +2188,10 @@
         private System.Windows.Forms.Button button121;
         private System.Windows.Forms.Button button122;
         private System.Windows.Forms.Button button123;
+        private System.Windows.Forms.Button button124;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
