@@ -252,14 +252,8 @@ namespace WindowsFormsApp1
             //
             //Dev mode
             //
-            if (checkBox1.Checked == true)
-            {
-                button123.Visible = true;
-            }
-            else
-            {
-                button123.Visible = false;
-            }
+            //    button123.Visible = true;
+
 
         }
 
@@ -611,6 +605,7 @@ namespace WindowsFormsApp1
             controller = 't';
             timerSpeed = 1000;
             time = 1;
+            points = -3;
             coords[0] = 5;
             coords[1] = 5;
             snakeTimer.Interval = 1000;
